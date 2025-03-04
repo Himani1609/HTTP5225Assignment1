@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Afacad+Flux:wght@100..1000&family=Dancing+Script:wght@400..700&family=Liu+Jian+Mao+Cao&family=Lustria&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fbeece;
+    font-family: "Merriweather", serif;
+}
+
+.navbar{
+    padding: 15px;
+}
+
+.navbar,footer{
+    background-color: #264653;
+    box-shadow: 0 2px 2px #1d2524;
+    color: white !important;
+}
+
+.navbar-brand{
+    font-family: "Dancing Script", serif;
+    font-size: 28px;
+}
+
+.navbar-brand,.navbar .nav-link {
+    color: white !important;
+}
+
+main{
+    flex:1;
+}
+
+
+h1{
+    color: #264653;
+    margin-top: 20px;
+    font-size: 48px;
+    text-shadow: 0 2px 2px #1d2524;
+
+}
+
+
+.destination-card{
+    margin: 50px;
+    padding: 40px;
+    outline:3px dashed #E76F51;
+}
+
+.hotel-card{
+    margin:20px;
+    padding: 20px;
+    outline:3px dashed #E76F51;
+
+}
+
+.badge{
+    background-color: #264653;
+}
+
+.card-title{
+    color: #E76F51;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0 2px 2px #81554a;
+}
+
+
+.card-subtitle{
+    color: #2A9D8F;
+    font-weight: bold;
+
+}
+
+.p-text{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #E76F51;
+
+}
+
+.card-text{
+    line-height: 25px;
+    word-spacing: 10px;
+}
+
+
+.card-img-top{
+    height:600px;
+    border:2px solid #E9C46A;
+}
+
+.btn-submit{
+    background-color: #264653;
+    color: white;
+    
+}
+
+.btn-submit:hover{
+    background-color: #2A9D8F;
+    color: black;
+}
+
+
+
